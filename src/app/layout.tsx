@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
-          <nav>
+          <nav className="flex justify-between">
             <h1>Recipes for ninjas</h1>
             <ModeToggle />
           </nav>
